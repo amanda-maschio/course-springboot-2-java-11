@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.cursoudemy.course.entities.User;
 import com.cursoudemy.course.repositories.UserRepository;
+import com.cursoudemy.course.services.exceptions.ResourceNotFoundException;
 
 //@COMPONENT - Registra a classe como componente do Spring
 //@REPOSITORY - Registra um repository
@@ -26,7 +27,9 @@ public class UserService {
 	public User findById(Long id) {
 		
 		Optional<User> obj = repository.findById(id);
-		return obj.get();
+		
+		//orElseThrow - caso capture um erro ele vai lançar o erro passado por parametro
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 	
 	public User insert(User obj) {
