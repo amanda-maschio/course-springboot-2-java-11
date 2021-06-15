@@ -10,7 +10,7 @@ Aplicação JAVA desenvolvida de acordo com as solicitações da Seção 25: Pro
 O Sistema tem como objetivo implementar operações de CRUD através de solicitações HTTP feitas via Postman.
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/amanda-maschio/course-springboot-2-java-11/blob/main/assets/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
