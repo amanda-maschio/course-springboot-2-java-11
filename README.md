@@ -5,7 +5,7 @@
 
 Aplicação JAVA desenvolvida de acordo com as solicitações da Seção 25: Projeto: Web services com Spring Boot e JPA / Hibernate, do Curso Java COMPLETO Programação Orientada a Objetos +Projetos. 
 
-O Sistema tem como objetivo implementar operações de CRUD através de solicitações HTTP feitas via Postman.
+O Sistema tem como objetivo implementar operações de CRUD através de solicitações HTTP.
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/amanda-maschio/course-springboot-2-java-11/blob/main/assets/modelo-conceitual.png)
